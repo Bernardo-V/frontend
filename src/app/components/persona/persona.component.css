@@ -1,0 +1,87 @@
+/*.container-fluid {
+    background-color: #c4c4c4;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 111px;    
+}
+
+h1, h2, h4, h5, p{
+    font-family: 'Albert Sans', sans-serif;
+}
+
+h1{
+    color: #3d3d3d;
+    line-height: 1;
+}
+
+h6, h3{
+    font-family: 'Source Code Pro', monospace;
+}
+
+h6{
+    color: white;
+    background-color: #3BACB6;  
+    display: inline-block;
+    padding: 5px ;
+    margin: 5px auto;
+}
+
+h3{
+    position: relative;
+}
+
+h3:before{
+    content: '';
+    position: absolute;
+    border-top: solid #3BACB6 2px;
+    height: 1em;
+    top: 1.2rem;
+    left: 13rem;
+    right: 3rem;
+}
+
+.img-portada{
+    width: 100%;
+    max-width: 100%;
+}
+
+.img-perfil{
+    border-radius: 100%;
+    box-shadow: 3px 3px 50px rgb(90, 90, 90);
+    margin-top: -40%;
+    width: 70%;
+    max-width: 200px;
+}
+
+.edit-persona-btn{
+    position: absolute;
+    top: 36.5rem;
+    right: 4rem;
+}
+
+.edit-persona-btn button{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px rgb(128, 128, 128);
+}
+
+
+
+@media(max-width: 768px) {
+    .img-perfil {
+        margin-top: -20%;
+    }
+}
+
+@media(max-width: 576px) {
+    .edit-persona-btn{
+        top: 48.5rem;
+        right: 2rem;
+    }
+}*/

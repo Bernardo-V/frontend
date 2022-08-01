@@ -13,8 +13,12 @@
                     <td>
                         <h4>{{Proyectos.nombrePro}}</h4>
                     </td>
-                    <td>{{Proyectos.descripcionPro}}</td>
-                    <td>{{Proyectos.fechaPro}}</td>
+                    <td>
+                        <h4>{{Proyectos.descripcionPro}}</h4>
+                    </td>
+                    <td>
+                        <h4>{{Proyectos.fechaPro}}</h4>
+                    </td>
                     
                     <td *ngIf="isLogged">
                         <button class="btn btn-light" routerLink="/editpro/{{Proyectos.id}}">

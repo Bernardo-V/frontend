@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
 import { BannerComponent } from './components/banner/banner.component';
-import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
@@ -26,7 +25,9 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { NewSkillsComponent } from './components/skills/new-skills.component';
 import { EditSkillsComponent } from './components/skills/edit-skills.component';
 import { EditProyectosComponent } from './components/proyectos/edit-proyectos.component';
-import { NewProyectosComponent } from './components/proyectos/new-proyectos.component'
+import { NewProyectosComponent } from './components/proyectos/new-proyectos.component';
+import { PersonaComponent } from './components/persona/persona.component';
+import { EditpersonaComponent } from './components/persona/editpersona.component'
 
 @NgModule({
   declarations: [
@@ -34,7 +35,6 @@ import { NewProyectosComponent } from './components/proyectos/new-proyectos.comp
     HeaderComponent,
     LogoAPComponent,
     BannerComponent,
-    AcercaDeComponent,
     ExperienciaComponent,
     EducacionComponent,
     HysComponent,
@@ -50,7 +50,9 @@ import { NewProyectosComponent } from './components/proyectos/new-proyectos.comp
     NewSkillsComponent,
     EditSkillsComponent,
     EditProyectosComponent,
-    NewProyectosComponent
+    NewProyectosComponent,
+    PersonaComponent,
+    EditpersonaComponent
   ],
   imports: [
     BrowserModule,
